@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Original Surfer', cursive;
+  user-select: none;
+}
+
+
+.pdp-navbar {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.explanation {
+  span {
+    font-size: 10vh;
+  }
+}
+
+.OnOffline {
+  width: 25em;
+  height: 13em;
+  border-radius: 12px;
+
+  &:hover {
+    //box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17)
+  }
+
+  .line {
+    width: 21em;
+  }
+}
+
+.aboutBootcamp {
+  width: 38em;
+}
+
+.cards {
+  width: 260px;
+  height: 340px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.03);
+  margin-bottom: 3em;
+
+  .image {
+    width: 6em;
+    font-size: 2em;
+    height: 5em;
+    margin-top: 5vh;
+
+  }
+
+  .aboutCard {
+    font-size: 23px;
+    margin-top: 2em;
+  }
+
+  &:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+}
+
+.card1 {
+  margin-left: -4em;
+  margin-right: 5vh;
+}
+
+.card2 {
+  margin-right: 5vh;
+}
+
+.card3 {
+  margin-right: 5vh;
+}
+
+.tabled {
+  width: 520px;
+
+  tr {
+    border-bottom: 0.5px solid black;
+  }
+}
+
+.cardChance {
+  width: 30em;
+  height: 23em;
+  //background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 5px 35px 0 rgba(50, 50, 93, 0.17);
+
+  .cardText {
+    width: 20em;
+    margin-left: 6em;
+  }
+
+  .ficha {
+    color: #c1c6c8;
+
+    h3 {
+      padding-top: 38vh;
+    }
+
+  }
+
+  img {
+    width: 317px;
+    height: 238px;
+  }
+}
+
+.mentors {
+  border-radius: 12px;
+
+  .mentorImg {
+    width: 10em;
+    border-radius: 50%;
+  }
+
+  .aboutMentor {
+    img {
+      width: 18vh;
+      //mix-blend-mode: screen;
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 5px 35px 0 rgba(50, 50, 93, 0.17);
+  }
+}
+
+.partnerImg {
+  width: 13em;
+  height: 8em;
+
+  img {
+    width: 10em;
+    height: 5em;
+    margin-top: 4vh;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 35px 0 rgba(50, 50, 93, 0.17);
+    border-radius: 10px;
+  }
+}
+
+.aboutNews {
+  width: 29em;
+}
+
+.news2 {
+  margin-top: 6em;
+  margin-left: 8vh;
+}
+
+.footer1 {
+  border-bottom: 2px black solid;
+}
+
+.sertificateImg {
+  width: 3em;
+}
+
+.signIn {
+  background: url("https://pdp.uz/assets/newPdp/sign.svg") no-repeat 50em 15vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.courses {
+  li {
+    margin-bottom: 1vh;
+    font-size: 15px;
+  }
+}
+.dashboard{
+  border-right: 3px green solid;
+}
