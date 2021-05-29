@@ -37,7 +37,7 @@ export default function ActiveCourses(){
                             <Row>
                                 <Col md={4}>
                                     <div className="courses " style={{marginTop: '5em'}}>
-                                        <ul className='list-group list-group-flush'>
+                                        <ul className='list-group '>
                                             <li className='list-group font-weight-bold'>
                                                 <span>Kurslar</span>
                                             </li>

@@ -7,6 +7,7 @@ import ActiveCourses from "./component/pages/ActiveCourses";
 import AdminPage from "./component/pages/AdminPage";
 import MentorPage from "./component/pages/MentorPage";
 import OperatorPage from "./component/pages/OperatorPage";
+import NotFound from "./component/pages/NotFound";
 
 function App() {
     return (
@@ -14,12 +15,13 @@ function App() {
             <Router>
                 <Switch>
                     <Route exact path='/' component={HomePage}/>
-                    <Route exact path='/signIn' component={LoginJs}/>
-                    <Route exact path='/signUp' component={Register}/>
-                    <Route exact path='/activeCourses' component={ActiveCourses}/>
-                    <Route exact path='/adminPage' component={AdminPage}/>
-                    <Route exact path='/mentorPage' component={MentorPage}/>
-                    <Route exact path='/operatorPage' component={OperatorPage}/>
+                    <Route  path='/signIn' component={LoginJs}/>
+                    <Route  path='/signUp' component={Register}/>
+                    <Route  path='/activeCourses' component={ActiveCourses}/>
+                    <Route  path='/adminPage' component={AdminPage}/>
+                    <Route  path='/mentorPage' component={MentorPage}/>
+                    <Route  path='/operatorPage' component={OperatorPage}/>
+                    <Route  component={NotFound}/>
                 </Switch>
             </Router>
         </>

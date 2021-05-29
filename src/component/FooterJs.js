@@ -28,26 +28,26 @@ export default function FooterJs() {
                     <Col md={8}>
                         <Container className="d-inline-flex justify-content-between ">
                             <Col md={4}>
-                                <div className="">
+                                <div className="text-center">
                                     <h3>Asosiy</h3>
-                                    <ul>
-                                        <li>
-                                            <Link>
+                                    <ul className='list-group list-group-flush'>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Kompaniya haqida
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Hamkorlik
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Huquqiy hujjatlar
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Bog`lanish
                                             </Link>
                                         </li>
@@ -55,26 +55,26 @@ export default function FooterJs() {
                                 </div>
                             </Col>
                             <Col md={4}>
-                                <div className="">
+                                <div className="text-center">
                                     <h3>Ta`lim</h3>
-                                    <ul>
-                                        <li>
-                                            <Link>
+                                    <ul className='list-group list-group-flush'>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Onside
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Online
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Imtiyoz
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Code skill
                                             </Link>
                                         </li>
@@ -82,26 +82,26 @@ export default function FooterJs() {
                                 </div>
                             </Col>
                             <Col md={4}>
-                                <div className="">
+                                <div className="text-center">
                                     <h3>Loyihalar</h3>
-                                    <ul>
-                                        <li>
-                                            <Link>
+                                    <ul className='list-group list-group-flush'>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 PDP Live
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 PDP Meetup
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 PDP Generation
                                             </Link>
                                         </li>
-                                        <li>
-                                            <Link>
+                                        <li className='list-group'>
+                                            <Link style={{color: 'black'}} className='nav-link'>
                                                 Sertificate
                                             </Link>
                                         </li>
