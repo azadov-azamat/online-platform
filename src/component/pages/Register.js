@@ -1,13 +1,11 @@
 import React from "react";
 import NavbarJs from "../NavbarJs";
 import {Col, Container, Row} from "reactstrap";
-// import uz from 'react-phone-number-input/locale/'
 import {AvField, AvForm} from 'availity-reactstrap-validation';
 import {useHistory} from "react-router-dom";
 
 export default function Register() {
 
-    // const [value, setValue] = useState()
 
     const history = useHistory();
 
@@ -44,18 +42,23 @@ export default function Register() {
                                             label='Your name'
                                             name='firstName'
                                             placeholder='Ex: Davronjon'
+                                            minLength={3}
+                                            maxLength={12}
 
                                         />
                                         <AvField
                                             label='Your phone number'
                                             name='phoneNumber'
                                             placeholder='Ex: +998 99 680 22 08'
-
+                                            maxLength={14}
+                                            required
                                         />
                                         <AvField
                                             label='Your password'
                                             name='password'
                                             placeholder='Ex: root123'
+                                            minLength={4}
+                                            maxLength={16}
 
                                         />
                                         <button type='submit' id='btn '
@@ -64,29 +67,11 @@ export default function Register() {
                                     </AvForm>
                                 </div>
                             </Col>
-                        </Row>
+                            </Row>
                     </Col>
                 </Row>
             </Container>
-            {/*<Container>*/}
-            {/*    <Row>*/}
-            {/*        <Col md={6}>*/}
-            {/*            <div className="">*/}
-            {/*                    <PhoneInput*/}
-            {/*                        international*/}
-            {/*                        countrySelectProps={{ unicodeFlags: true }}*/}
-            {/*                        value={value}*/}
-            {/*                        onChange={setValue}*/}
-            {/*                        minlength="9"*/}
-            {/*                        maxlength="17"*/}
-            {/*                        required*/}
 
-            {/*                        />*/}
-            {/*                <FontAwesomeIcon icon={faEye}/>*/}
-            {/*            </div>*/}
-            {/*        </Col>*/}
-            {/*    </Row>*/}
-            {/*</Container>*/}
         </div>
     )
 }

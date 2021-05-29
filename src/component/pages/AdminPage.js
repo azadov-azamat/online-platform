@@ -6,21 +6,18 @@ export default function AdminPage() {
 
     return (
         <div className='d-inline-flex mt-4'>
-            <Container >
                 <AdminLayout/>
-            </Container>
             <Container>
-                <Row>
-                    <Col md={12} sm={12} className='border'
-                    >
-                        <div className="float-right"  >
-                         <span className={''}>
-                             Odilbek Mirzayev
-                         </span>
-                        </div>
+                <Row className='float-right ' >
+                    <Col md={12} >
                         <div className="">
-                            <span>Direktor Dashboard</span>
+                            <span>Odilbek Mirzayev</span>
                         </div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12}>
+                        <h1>Director Dashboard</h1>
                     </Col>
                 </Row>
             </Container>
