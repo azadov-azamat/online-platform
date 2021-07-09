@@ -1,11 +1,15 @@
-import React from "react";
-import {Button, Col, Container, Row} from "reactstrap";
+import React, {useState} from "react";
+import {Button, Col, Container, Row, Tooltip} from "reactstrap";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faTimesCircle} from "@fortawesome/free-solid-svg-icons";
 import {Link} from "react-router-dom";
 
-export default function ActiveCourses(){
-    return(
+export default function ActiveCourses() {
+    const [tooltipOpen, setTooltipOpen] = useState(false);
+
+    const toggle = () => setTooltipOpen(!tooltipOpen);
+
+    return (
         <div className={'d-flex'}>
             <Container>
                 <Row>
@@ -15,7 +19,10 @@ export default function ActiveCourses(){
                                 <span>Online</span>
                             </div>
                             <div className="border-bottom pr-5">
-                                <span>Onsite</span>
+                                <span id="TooltipExample">Onsite</span>
+                                <Tooltip placement="top" isOpen={tooltipOpen} target="TooltipExample" toggle={toggle}>
+                                    Onsite <br/> kurslarimiz vaqtinchalik to`xtatilgan!
+                                </Tooltip>
                             </div>
                         </div>
                         <div className="font-weight-bold" style={{marginTop: '10vh'}}>

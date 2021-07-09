@@ -12,7 +12,7 @@ export default function ExplanationJs() {
     return (
         <>
             <Container>
-                <Row className='d-inline-flex justify-content-between align-items-center mt-5'>
+                <Row className='d-inline-flex justify-content-between align-items-center' style={{marginTop: '6em'}}>
                     <Col md={8}>
                         <div className="explanation">
                             <h1>

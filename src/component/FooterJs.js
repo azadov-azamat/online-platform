@@ -117,8 +117,17 @@ export default function FooterJs() {
                             <div className="">
                                 Inflex, Inc. 2017 – {new Date().getFullYear()}
                             </div>
-                            <div className="float-right">
-                                Instagram, Facebook, Telegram
+                            <div className="d-inline-flex">
+                                <div className="mr-2">
+                                    <i className="fa fa-facebook"/>
+                                </div>
+                                <div className="mr-2">
+                                    <i className="fa fa-instagram"/>
+                                </div>
+                                <div className="mr-2">
+                                    <i className="fa fa-telegram"/>
+                                </div>
+
                             </div>
                         </div>
                     </Col>

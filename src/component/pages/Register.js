@@ -3,6 +3,7 @@ import NavbarJs from "../NavbarJs";
 import {Col, Container, Row} from "reactstrap";
 import {AvField, AvForm} from 'availity-reactstrap-validation';
 import {useHistory} from "react-router-dom";
+import {toast} from "react-toastify";
 
 export default function Register() {
 
@@ -11,6 +12,12 @@ export default function Register() {
 
     function loginPage() {
         history.push('/signIn');
+    }
+
+    function register(e, v){
+        localStorage.setItem("newUser", JSON.stringify(v))
+        toast.success("Saqlandi");
+
     }
 
     return (
@@ -37,7 +44,7 @@ export default function Register() {
                             <Col md={6}>
                                 <div style={{width: '18em'}}
                                      className='text-center mb-3 mt-2 d-flex justify-content-center align-content-center'>
-                                    <AvForm>
+                                    <AvForm onValidSubmit={register}>
                                         <AvField
                                             label='Your name'
                                             name='firstName'

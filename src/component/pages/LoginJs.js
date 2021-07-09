@@ -4,8 +4,6 @@ import {Col, Container, Row} from "reactstrap";
 // import uz from 'react-phone-number-input/locale/'
 import {AvField, AvForm} from 'availity-reactstrap-validation';
 import {useHistory} from "react-router-dom";
-import NotFound from "./NotFound";
-import {toast} from "react-toastify";
 
 export default function LoginJs() {
 
