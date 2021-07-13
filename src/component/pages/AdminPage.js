@@ -1,9 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import AdminLayout from "../AdminLayout";
 import {Col, Container, Row} from "reactstrap";
+import {toast} from "react-toastify";
 
 export default function AdminPage() {
 
+    useEffect(()=>{
+        toast.dark("Kechirasiz loyiha ustidan ishlanyabdi")
+    })
     return (
         <div className='d-inline-flex mt-4'>
                 <AdminLayout/>

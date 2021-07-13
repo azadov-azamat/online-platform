@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import OperatorLayout from "../OperatorLayout";
 import {Col, Container, Row} from "reactstrap";
+import {toast} from "react-toastify";
 
 export default function OperatorPage(){
+    useEffect(()=>{
+        toast.dark("Kechirasiz loyiha ustidan ishlanyabdi")
+    })
     return(
         <>
             <div className="d-inline-flex mt-4">

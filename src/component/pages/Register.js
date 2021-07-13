@@ -16,8 +16,7 @@ export default function Register() {
 
     function register(e, v){
         localStorage.setItem("newUser", JSON.stringify(v))
-        toast.success("Saqlandi");
-
+        toast.success("Local storage ga Saqlandi, Kechirasiz lekin loyiha xali tayyor emas");
     }
 
     return (

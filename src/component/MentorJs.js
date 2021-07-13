@@ -37,7 +37,7 @@ export default function MentorJs(){
                                     <img src="./images/mentors/img_1.png" className='mentorImg mt-5'/>
                                 </div>
                                 <div className="aboutMentor mt-5">
-                                    <h4>Khurshidbek Kurbanov</h4>
+                                    <h4>Azimjon Pulatov</h4>
                                     <p>Senior Mobile Developer</p>
                                     <div className="companyImg mb-4">
                                         <img src="https://pdp.uz/api/file/get/6bed75f4-5c40-413f-ab68-a79f27b440d9" className={' text-info'}/>
