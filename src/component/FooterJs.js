@@ -118,14 +118,20 @@ export default function FooterJs() {
                                 Inflex, Inc. 2017 – {new Date().getFullYear()}
                             </div>
                             <div className="d-inline-flex">
-                                <div className="mr-2">
-                                    <i className="fa fa-facebook"/>
+                                <div className="mr-3">
+                                    <a href=" https://www.facebook.com/azamat.azadov.9/">
+                                        <i className="fa fa-facebook" style={{color: "rgba(8,5,154,0.98)", fontSize: '1.5rem'}}/>
+                                    </a>
+                                </div>
+                                <div className="mr-3">
+                                    <a href="https://www.instagram.com/azadov_azamat_life/">
+                                        <i className="fa fa-instagram"  style={{color: "rgba(154,63,37,0.98)", fontSize: '1.5rem'}}/>
+                                    </a>
                                 </div>
                                 <div className="mr-2">
-                                    <i className="fa fa-instagram"/>
-                                </div>
-                                <div className="mr-2">
-                                    <i className="fa fa-telegram"/>
+                                    <a href="https://t.me/pdpuz">
+                                        <i className="fa fa-telegram"  style={{color: "rgba(11,98,154,0.98)", fontSize: '1.5rem'}}/>
+                                    </a>
                                 </div>
 
                             </div>
